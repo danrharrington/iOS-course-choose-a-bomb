@@ -12,6 +12,7 @@
 		C17827581C09105300B99350 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C17827561C09105300B99350 /* Main.storyboard */; };
 		C178275A1C09105300B99350 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C17827591C09105300B99350 /* Assets.xcassets */; };
 		C178275D1C09105300B99350 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C178275B1C09105300B99350 /* LaunchScreen.storyboard */; };
+		C17827651C092B8D00B99350 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C17827641C092B8D00B99350 /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		C17827591C09105300B99350 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C178275C1C09105300B99350 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C178275E1C09105300B99350 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C17827641C092B8D00B99350 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = ../../../Dropbox/Main.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +59,7 @@
 				C17827521C09105300B99350 /* AppDelegate.swift */,
 				C17827541C09105300B99350 /* ViewController.swift */,
 				C17827561C09105300B99350 /* Main.storyboard */,
+				C17827641C092B8D00B99350 /* Main.storyboard */,
 				C17827591C09105300B99350 /* Assets.xcassets */,
 				C178275B1C09105300B99350 /* LaunchScreen.storyboard */,
 				C178275E1C09105300B99350 /* Info.plist */,
@@ -96,6 +99,7 @@
 				TargetAttributes = {
 					C178274E1C09105300B99350 = {
 						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 6QMY2GR52U;
 					};
 				};
 			};
@@ -125,6 +129,7 @@
 				C178275D1C09105300B99350 /* LaunchScreen.storyboard in Resources */,
 				C178275A1C09105300B99350 /* Assets.xcassets in Resources */,
 				C17827581C09105300B99350 /* Main.storyboard in Resources */,
+				C17827651C092B8D00B99350 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -247,10 +252,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = "Choose a Bomb/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.devslopes.Choose-a-Bomb";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -258,10 +266,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = "Choose a Bomb/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.devslopes.Choose-a-Bomb";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
